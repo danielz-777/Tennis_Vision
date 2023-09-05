@@ -1,0 +1,22 @@
+{% extends "hello/layout.html" %}
+
+{% load static %} 
+{% block title %}
+Home
+{% endblock %}
+{% block content %}
+
+
+
+
+<h1>Welcome to the AI Tennis coach!</h1> 
+
+{% load static %}
+<figure>
+    <img src="{% static '/hello/Rudd.jpg' %}" width= "1000" height= "500" alt="Rudd_Forehand">
+    <figcaption>Our model labelling and tracking specific joints on professional tennis player Casper Rudd. </figcaption>
+</figure>
+
+
+
+{% endblock %}
